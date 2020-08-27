@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Home, About, Pricing, Contact } from './pages'
+import { Home, Login } from './pages'
 // import './assets/scss/styles.css';
 
 const routes = [
@@ -10,17 +10,9 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    component: About
+    path: '/login',
+    component: Login
   },
-  {
-    path: '/pricing',
-    component: Pricing
-  },
-  {
-    path: '/contact',
-    component: Contact
-  }
 ]
 
 const AppRouter = () => (
