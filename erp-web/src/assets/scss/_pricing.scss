@@ -1,0 +1,32 @@
+.container-pricing {
+    margin-bottom: 20%;
+    .pricing-wrapper-top {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold; 
+        letter-spacing: -1px; 
+        line-height: 1; 
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 3%;
+    }
+    .pricing-wrapper-detail {
+        text-align: center;
+        padding: 2% 20%;
+        font-size: 25px;
+    }
+
+    .pricing-wrapper {
+
+        .pricing-wrapper-title {
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 5px;
+            width: 20%;
+            margin: 1% 40%;
+            padding: 10px 10px;
+            background-color: rgb(247, 247, 247);
+        }
+    }
+}

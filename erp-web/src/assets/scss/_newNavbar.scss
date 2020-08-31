@@ -1,0 +1,45 @@
+.text-home-navbar {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 100px 100px;
+    margin-top: -2%;
+    margin-left: -4%;
+    background-image: url('../img/undraw_lost_online_wqob.png');
+    background-size: cover;
+    position: absolute;
+}
+
+.d-inline-block{
+    margin-top: 15px;
+    position: static;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.btn-flat {
+    color: black;
+}
+
+.list-text {
+    font-size: 40px;
+    padding: 40px 13%;
+    font-weight: 900;
+    color: black;
+
+    a {
+        margin: 20px 20px;
+    }
+
+    .login-btn {
+        border: 1px solid rgb(145, 225, 255);
+        border-radius: 15px;
+        padding: 10px 12% !important;
+        margin: auto;
+        margin-left: 30px;
+        color: rgb(145, 225, 255) !important;
+        font-weight: normal;
+        font-size: 80%;
+    }
+}

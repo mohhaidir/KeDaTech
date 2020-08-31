@@ -1,0 +1,54 @@
+.navbar-container {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .home-button {
+        margin: 45px;
+        font-size: 50px;
+        // color: white;
+        // background-image: url('../img/undraw_lost_online_wqob.png');
+        // background-size: cover;
+        // padding: 100px;
+    }
+
+    .nav-img {
+
+    }
+
+    .button-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 50px;
+        font-size: 20px;
+
+        .about {
+            margin: 20px 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .pricing {
+            margin: 20px 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .contact {
+            margin: 20px 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .login {
+            border: 1px solid rgb(145, 225, 255);
+            border-radius: 15px;
+            padding: 10px 100px;
+            margin: auto;
+            margin-left: 30px;
+            color: rgb(145, 225, 255) !important;
+            text-decoration: none;
+        }
+    }
+}

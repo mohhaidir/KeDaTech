@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Home, Login } from './pages'
-// import './assets/scss/styles.css';
+import './assets/scss/styles.scss'
 
 const routes = [
   {
