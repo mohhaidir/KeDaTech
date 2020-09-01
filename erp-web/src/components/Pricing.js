@@ -1,8 +1,6 @@
 import React from 'react'
 import { Carousel, Accordion, Card, Button, ListGroup } from 'react-bootstrap'
 import Price1 from '../assets/img/startup.png'
-import Price2 from '../assets/img/undraw_stock_prices_afrt.png'
-import Price3 from '../assets/img/undraw_personal_finance_tqcd.png'
 
 export default function Pricing () {
     return (
