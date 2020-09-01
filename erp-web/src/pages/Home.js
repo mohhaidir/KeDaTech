@@ -1,13 +1,12 @@
 import React from 'react'
-import { Navbar, About, Pricing, Contact, NewNavbar, Footer } from '../components'
+import { About, Pricing, Contact, Navbar, Footer } from '../components'
 import metrics from '../assets/img/undraw_metrics_gtu7.png'
 import banner from '../assets/img/—Pngtree—blue banner. liquid background. isolated_4353010.png'
 
 export default function Home () {
     return (
         <>
-            {/* <Navbar /> */}
-            < NewNavbar />
+            <Navbar />
             <div className="container-home">
                 <div className="text-home">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
