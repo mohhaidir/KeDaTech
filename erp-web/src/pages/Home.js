@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, About, Pricing, Contact, NewNavbar } from '../components'
+import { Navbar, About, Pricing, Contact, NewNavbar, Footer } from '../components'
 import metrics from '../assets/img/undraw_metrics_gtu7.png'
 import banner from '../assets/img/—Pngtree—blue banner. liquid background. isolated_4353010.png'
 
@@ -28,9 +28,12 @@ export default function Home () {
             <div className="container-pricing" id="pricing">
                 <Pricing />
             </div>
-            {/* <div className="container-contact" id="contact">
+            <div className="container-contact" id="contact">
                 <Contact />
-            </div> */}
+            </div>
+            <div className="container-footer">
+                <Footer/>
+            </div>
         </>
     )
 }
